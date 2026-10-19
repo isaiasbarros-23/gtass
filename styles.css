@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bangers", system-ui;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(img/7.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.nome {
+    color: rgb(243, 242, 242);
+    font-size: 200px;
+    position: absolute;
+    bottom: 430px;
+    width: 100%;
+    left: 386px;
+}
+
+.pessoa {
+    position: absolute;
+    bottom: -300px;
+    left: 400px;
+    
+}
+
+.texto {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #ffff;
+}
+
+.etiqueta {
+    color: yellow;
+    font-size: 26px;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.text1 {
+    font-size: 15px;
+    color: #ffff;
+}
+
+.menu {
+    position: absolute;
+    bottom: -20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.avatar {
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid rgb(12, 11, 11);
+
+}
+
+.voce {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.nome {
+    -webkit-text-stroke: 1px #f8f4f4;
+}

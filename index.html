@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <p class="nome">Michael</p>
+
+    <div class="texto">
+
+        <p class="etiqueta">Selecione o seu Personagem</p>
+        <h1>Não é so <br> um jogo</h1>
+        <p class="text1">escolha uma lenda </p>
+    </div>
+
+    <img id="pessoa" class="pessoa" src="img/michael.png">
+
+    <div class="menu">
+
+<img onclick="escolhermichael()" class="avatar" src="img/michael.png">
+
+
+        <img  onclick="escolherpessoa('franklin')" class="avatar" src="img/franklin.png">
+
+
+        <img onclick="escolhertrevor('trevor')" class="avatar" src="img/trevor.webp">
+
+<button class="voce" onclick="document.getElementById('foto').click()">📷</button>
+<input type="file" id="foto" accept="image/*" hidden onchange="escolherfoto(event)">
+
+
+
+    </div>
+
+    </button>
+</body>
+<script src="scripts.js">
+
+
+</script>
+
+</html>
